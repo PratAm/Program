@@ -59,5 +59,7 @@ int main()
   head1->next->next->next = NULL;
  
   cout <<"\n The node of intersection is: " <<getIntersectionNode(head1, head2) << endl;
+	free(head1);
+	free(head2);
   return 1; 
 }
